@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <title>Donate</title>
+</head>
+
+<body>
+  <nav>
+    <div class="topnav">
+      <a class="home" href="home.html">Home</a>
+      <a class="active" href="#page2">Donate</a>
+      <a href="page3.html">Links</a>
+      <a href="page4.html">Photos</a>
+    </div>
+    <div style="padding-left:16px">
+      <h2 class="donateHeader">DON'T DELAY DONATE TODAY</h2>
+    </div>
+  </nav>
+
+  <main>
+    <form action="" method="post">
+
+      <fieldset id="container">
+
+          <legend>Donate to the FrenchArmy</legend>
+
+          <div class="central_box">
+              <div class="basic_info">
+                  <div class="basic_info">
+                      <label for="firstName">First Name:</label>
+                      <input type="text" id="firstName" name="first_name">
+                  </div>
+                  <div class="basic_info">
+                      <label for="lastName">Last Name:</label>
+                      <input type="text" id="lastName" name="last_name">
+                  </div>
+                  <div class="basic_info">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email_address">
+                  </div>
+              </div>
+
+              <div class="donate">
+                  <div>
+                      <p class="homePageParagraphStyle">Donation Amount</p>
+                  </div>
+                  <div class="buttons">
+                      <div>
+                          <input type="radio" >
+                          <label for="donate">$100</label>
+                      </div>
+                      <div>
+                          <input type="radio">
+                          <label for="donate">$200</label>
+                      </div>
+                      <div>
+                          <input type="radio">
+                          <label for="donate">$600</label>
+                      </div>
+                  </div>
+              </div>
+              
+              <br>
+              <div class="comments">
+                  <label for="comments" id="comments_label">Comments</label>
+                  <textarea id="comments" name="comments"> </textarea>
+              </div>
+
+              <label class="checkbox-label">
+                Agree to terms
+                <input type="checkbox" name="myCheckbox">
+              </label>
+              
+              <div class="submit_button">
+                  <button type="submit" id="myButton">Submit</button>
+              </div>
+          </div>
+
+      </fieldset>
+
+  </form>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>&copy; 2023 FrenchArmy. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
